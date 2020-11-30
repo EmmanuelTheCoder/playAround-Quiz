@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: rgb(218, 153, 34);
+}
+.game-panel{
+  background: purple;
+  height: 26rem;
+  width: 23rem;
+  position: relative;
+  border-radius: 40px;
+  box-shadow: 10px 10px 10px  rgba(140, 75, 148, 0.4);
+}
+.answer-section{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  
+}
+.answer-section button{
+  text-align: center;
+  width: 8rem;
+  font-size: 1.2rem;
+  margin-bottom: .3rem;
+  justify-self: center;
+  background: rgb(148, 75, 148);
+  color: white;
+  border-radius: 10px;
+  outline: none;
+
+}
+.answer-section button:hover{
+  background: purple;
+}
+.question-text{
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 8rem;
+  color: white;
+}
+.question-count{
+  font-weight: bold;
+  position: absolute;
+  bottom: 1rem;
+  padding-left: 1rem;
+  color: rgb(196, 186, 186);
+}
+.score-section{
+  font-size: 2rem;
+}
